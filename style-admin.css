@@ -1,0 +1,146 @@
+.{
+padding:0;
+margin:0;
+}
+.clear{
+     clear:both;
+}
+body{
+    font-family: 'Times New Roman',arial;
+	font-size:14px;
+	}
+	
+#wrapper-login{
+     width:330px;
+	height:auto;
+	background-color:grey;
+	padding:10px;
+	margin:100px auto 0 auto;
+
+}	
+#wrapper-login h1{
+     font-size:16px;
+	 border-bottom:1px solid #000;
+	 margin-bottom:20px;
+}
+input {
+	cursor:pointer;
+}
+input.midum[type='text'],
+input.midum[type='password']{
+	width:300px;
+
+}
+input.long[type='text'],
+input.long[type='password']{
+	width:600px;
+
+}
+table.tbl1{
+	margin-top:10px;
+}
+table.tbl2{
+	margin-top:10px;
+}
+table.tbl2 tr th,table.tbl2 td{
+	padding:2px;
+}
+table.tbl2 tr td{
+	
+	text-align:center;
+}
+table.tbl2 tr th{
+	background-color:#3d9ccd;
+	color:#fff;
+}
+table.tbl2 tr:nth-child(2n+1) td{
+	background-color:#70726e;
+}
+table.tbl2 tr:nth-child(2n) td{
+	background-color:#d2d3d1;
+}
+table.tbl2 tr td a{
+	color:#000;
+	text-decoration:none;
+}
+#wrapper-login table tr td{
+     padding:0px 10px;
+}
+#wrapper-login table tr td input[type='text'],
+#wrapper-login table tr td input[type='password']{
+    width:200px;
+	height:23px;
+	line-height:23px;
+}
+#wrapper-login table tr td input[type='submit']{
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	margin-top:10px;
+	float:right;
+	border:none;
+}
+#wrapper{
+	width:900px;
+	height:auto;
+	min-height:500px;
+	margin:0 auto;
+	background-color:#d9dbd8;
+	border:2px solid #000;
+	overflow:hidden;
+	padding:1opx;
+}
+#header{
+	width:900px;
+	height:50px;
+}
+#header h1{
+	font-size:23px;
+	color:#000;
+	border-bottom:1px solid #3d9ccd;
+	margin-left:10px;
+}
+#container{
+	width:900px;
+	height:auto;
+	 
+}
+#sidebar{
+	width:200px;
+	height:auto;
+	float:left;
+	margin-right:10px
+}
+#sidebar h2{
+	font-size:16px;
+	color:#fff;
+	background-color:#3d9ccd;
+	padding:2px 10px;
+	margin-top:10px;
+	margin-left:10px;
+}
+#sidebar ul li{
+	margin-left:20px;
+	list-style:none;
+}
+#sidebar ul li a{
+	text-decoration:none;
+}
+#content{
+	width:690px;
+	height:auto;
+	float:left;
+}
+#content h2{
+	font-size:18px;
+	color:#000;
+	border-bottom:1px solid #3d9ccd;
+	margin-top:10px;
+}
+.error{
+	color:red;
+	font-weight:bold;
+}
+.success{
+	color:green;
+	font-weight:bold;
+}
